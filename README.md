@@ -3,9 +3,6 @@
 Sakai OAuth allows any external application to connect to Sakai as any user
 thanks to the [OAuth system](http://oauth.net/) 1.0.
 
-
-[![Build Status](https://secure.travis-ci.org/ColinHebert/Sakai-OAuth.png?branch=master)](http://travis-ci.org/ColinHebert/Sakai-OAuth)
-
 ### Structure
 
 The project is divided in five modules similar to the structure of many Sakai
@@ -13,8 +10,6 @@ projects:
 
 - *api* contains a basic API for OAuth login, such as DAO for accessors and
 consumers, and mandatory services.
-- *assembly* gathers the content of every other modules in one assembly file
-which can easily be deployed.
 - *impl* contains the actual code of the default OAuth implementation.
 - *pack* is the module defining the [Spring](http://www.springsource.org/)
 configuration.
